@@ -1,0 +1,11 @@
+# Composer vendor packages are managed by Composer
+vendor
+
+# Wordpress Core is managed by Composer
+wp
+
+# Plugins directory is managed by Composer and will be ignored by git
+app/plugins/*
+
+# Custom plugins can be whitelisted like the example below
+# !app/plugins/custom-plugin-name
