@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bbd8a7f20f0e0db60a8fd3926b2f855b",
+    "hash": "d28d973ab5f3be6ae69ce48d9bd08a4e",
     "packages": [
         {
             "name": "composer/installers",
@@ -151,11 +151,11 @@
             "homepage": "http://wordpress.org/extend/plugins/advanced-custom-fields"
         },
         {
-            "name": "wpackagist/posts-to-posts",
-            "version": "1.4.3",
+            "name": "wpackagist/custom-post-type-ui",
+            "version": "0.8.2",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/posts-to-posts.1.4.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/custom-post-type-ui.0.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -163,7 +163,22 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/extend/plugins/posts-to-posts"
+            "homepage": "http://wordpress.org/extend/plugins/custom-post-type-ui"
+        },
+        {
+            "name": "wpackagist/wp-migrate-db",
+            "version": "0.5",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-migrate-db.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/wp-migrate-db"
         }
     ],
     "packages-dev": [
