@@ -9,3 +9,9 @@ app/plugins/*
 
 # Custom plugins can be whitelisted like the example below
 # !app/plugins/custom-plugin-name
+
+# WordPress Media Uploads
+media
+
+# Htaccess file
+.htaccess

@@ -25,7 +25,8 @@
     "wordpress": "3.7.1",
     "wpackagist/wp-migrate-db": "0.5",
     "wpackagist/advanced-custom-fields":"*",
-    "wpackagist/custom-post-type-ui": "0.8.2"
+    "wpackagist/custom-post-type-ui": "0.8.2",
+    "wpackagist/timber-library": "0.15.5"
   },
   "extra": {
     "installer-paths": {
